@@ -1,7 +1,7 @@
 .calc_simples{
     background-color: crimson;
     padding: 5px;
-    width: 250px;
+    width: 240px;
     border-radius: 10px;
 }
 
@@ -17,7 +17,7 @@
 
 .tecla{
     text-align: center;
-    padding: 7px;
+    padding: 5px;
 }
 
 button{
