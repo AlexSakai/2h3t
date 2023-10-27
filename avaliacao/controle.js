@@ -42,16 +42,17 @@ const inserir_ultimo = () => {
 }
 
 const deletar_nomes = () => {
-    let nome = pegar_nome();
-    lista.find(document.getElementById("nome"));
-    nome = number;
-    lista.splice(number, 1);
-    atualiza_lista;
+    let nome = (document.getElementById("nome").value);
+    for(i = 0; i < lista.length; i++){
+        if(nome == lista[i]){
+            lista.splice(i, 1);
+            atualiza_lista();
+        }
+    }
 }
 
 const limpar_lista = () => {
-    lista = [];
+    lista = lista[];
     atualiza_lista();
-
 }
     
