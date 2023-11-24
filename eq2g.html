@@ -2,29 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Equação do Segundo Grau</title>
     <link rel="stylesheet" href="./css/principal.css">
     <script src="./js/script.js"></script>
 </head>
 <body>
-    <select id="sinal_a">
-        <option value="+" selected>+</option>
+    
+    <select onchange="muda_sinal_a()" id="sinal_a">
+        <option value="+">+</option>
         <option value="-">-</option>
     </select>
-    <input class="entrada" type="number" id="valor_a">
+    <input onchange="set_valor_a()" class="entrada" type="number" id="valor_a">
     X<sup>2</sup>
-    <select id="sinal_b">
-        <option value="+" selected>+</option>
+
+    <select onchange="muda_sinal_b()" id="sinal_b">
+        <option value="+">+</option>
         <option value="-">-</option>
     </select>
-    <input class="entrada" type="number" id="valor_b">
+    <input onchange="set_valor_b()" class="entrada" type="number" id="valor_b">
     X
-    <select id="sinal_c">
-        <option value="+" selected>+</option>
+
+    <select onchange="muda_sinal_c()" id="sinal_c">
+        <option value="+">+</option>
         <option value="-">-</option>
     </select>
-    <input class="entrada" type="number" id="valor_c">
-    = 0
+    <input onchange="set_valor_c()" class="entrada" type="number" id="valor_c">
+    = 0 <br><br>
+    &Delta; = <span id="delta"></span>
 </body>
 </html>
