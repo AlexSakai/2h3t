@@ -1,0 +1,44 @@
+.pinto{
+    
+}
+
+.menu {
+    display: grid;
+    grid-row: auto;
+    border: 3px solid #7fb403;
+
+}
+
+.conteudos{
+    display: grid;
+    grid-template-columns: 8ch auto;
+    width: 100px;
+    height: 100px;
+    background-color: #a0d2e7;
+}
+
+.rodape{
+    position: absolute;
+  bottom: 10px;
+  width: 99%;
+  border: 3px solid #7fb403;
+}
+
+.imagem{
+    width: 20px;
+    height: 20px;
+}
+
+#maconha{
+    width: 10px;
+    height: 10px;
+}
+
+.photos{
+    
+}
+
+#imagem{
+    width: 250px;
+
+}
