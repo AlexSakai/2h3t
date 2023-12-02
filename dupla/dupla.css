@@ -1,44 +1,62 @@
-.pinto{
-    
-}
-
 .menu {
     display: grid;
     grid-row: auto;
-    border: 3px solid #7fb403;
+    background-color: #B7D9E2;
+    border: 3px solid #5C93AA;
 
-}
-
-.conteudos{
-    display: grid;
-    grid-template-columns: 8ch auto;
-    width: 100px;
-    height: 100px;
-    background-color: #a0d2e7;
 }
 
 .rodape{
     position: absolute;
-  bottom: 10px;
-  width: 99%;
-  border: 3px solid #7fb403;
+    bottom: 10px;
+    width: 99%;
+    background-color: #B7D9E2;
+    border: 3px solid #5C93AA;
 }
 
-.imagem{
+#maconha{
     width: 20px;
     height: 20px;
 }
 
-#maconha{
-    width: 10px;
-    height: 10px;
+#imagem{
+    width: 300px;
+}
+
+.titulos{
+    text-align: center;
 }
 
 .photos{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.pinto{
+    background-color: #86B6C6;
+    text-align: center;
+}
+
+.botao{
+    background-color: #B7D9E2;
+    border-radius: 5px;
+    border: 1px solid #75a2b6;
     
 }
 
-#imagem{
-    width: 250px;
+.botao:hover{
+    background-color: #3a728e;
+    border-radius: 5px;
+    border: 1px solid #1f5372;
+}
 
+.versiculo{
+    position: absolute;
+    bottom: 70px;
+    width: 99%;
 }
